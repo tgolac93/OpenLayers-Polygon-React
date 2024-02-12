@@ -1,3 +1,11 @@
+# Author's comments
+For the best result, I used React to make this project.
+With React, I managed to easily render OpenLayers and locally include a coordinates JSON file.
+
+I first rendered the blank map, took the coordinate data from the file, created a polyon layer and ordered the app to focus in on it.
+
+Majority of my solution is situated in a /src/MapRender.js file, other files either came with the default react project or are there to be able to run it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
